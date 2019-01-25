@@ -1,0 +1,38 @@
+body{
+    background-color: blue;
+}
+#container>div{
+    display: flex;
+    justify-content: center;
+}
+/* #game-board>div{
+    display: flex;
+    justify-content: center;
+} */
+.row{
+    display: block;
+}
+.square {
+    background-color: red;
+    border: 2px solid yellow;
+    width: 100px;
+    height: 100px;
+    outline-style: none;
+    font-size: 60px;
+}
+
+.square:hover{
+    background-color: #ff0;
+}
+
+#message{
+    font-size: 50px;
+    color: red;
+}
+
+.winning-square{
+    background-color: yellow;
+}
+#playAgain{
+    display: none;
+}
