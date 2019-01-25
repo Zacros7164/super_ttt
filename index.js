@@ -10,7 +10,7 @@ function submitForm(event){
     $('#game-board').toggle()
     // algorithm to create game board
     for(let i=0; i<userInput; i++){
-        $('#game-board').append(`<div id="row${i}" class="row"></div>`)
+        $('#game-board').append(`<div class="row"><div id="row${i}" class="col-12"></div></div>`)
         for(let j = 0; j< userInput; j++){
             $(`#row${i}`).append(`<button id="${i}${j}" class="square">-</button>`)
         }
@@ -226,5 +226,5 @@ function playAgain(){
     $('#message').toggle()
     $('#playAgain').toggle();
     $('#game-board').toggle();
-    
+    $('#game-board').html('');
 }

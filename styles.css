@@ -1,14 +1,17 @@
 body{
     background-color: blue;
 }
+
 #container>div{
     display: flex;
     justify-content: center;
 }
-/* #game-board>div{
+
+/* #game-board{
     display: flex;
     justify-content: center;
 } */
+
 .row{
     display: block;
 }
