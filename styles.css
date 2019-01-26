@@ -7,10 +7,6 @@ body{
     justify-content: center;
 }
 
-/* #game-board{
-    display: flex;
-    justify-content: center;
-} */
 
 .row{
     display: block;
@@ -26,16 +22,28 @@ body{
 
 .square:hover{
     background-color: #ff0;
+    border: 2px solid red;
+}
+
+.text-field{
+    color: black;
+    -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #message{
     font-size: 50px;
-    color: red;
+    color: black;
+    -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
-
 .winning-square{
     background-color: yellow;
+    border: 2px solid red;
 }
+
 #playAgain{
     display: none;
 }

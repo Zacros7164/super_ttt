@@ -11,13 +11,13 @@
 </head>
 <body>
     <div id=container>
-        <div class="row intro-message">
+        <div class="row intro-message text-field">
             <h1>How many rows would you like?</h1>
         </div>
         <div class="row intro-message">
             <form onsubmit="submitForm(event)">
                 <input id="user-input" type="text" />
-                <button>Submit</button>
+                <button class="btn btn-success">Submit</button>
             </form>
         </div>
 
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div>
-            <button onclick='playAgain()' id="playAgain">Play Again?</button>
+            <button onclick='playAgain()' id="playAgain" class ="btn btn-danger">Play Again?</button>
         </div>
     </div>
 
